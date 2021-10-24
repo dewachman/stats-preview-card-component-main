@@ -1,15 +1,69 @@
-
 body{
-background: linear-gradient(#eb5757, #d59152);
-margin: 0;
-padding: 0;
+font-family: 'Inter', sans-serif;
+Font size: 15px;
+background-color: #0A0C1B;
+}
+
+.overlay{
+background: linear-gradient(rgba(172, 97, 220,0.7),rgba(172, 97, 220,0.7)),url("images/image-header-desktop.jpg");
+background-size: cover;
+
+}
+.card{
+  margin:50px auto;
+
+  border: 0;
 
 }
 
-/* .look{
-width: 600px;
-margin: 10px auto;
-} */
-jk{
-  padding: 0 15%;
+h2{
+  font-weight: 700;
+  font-size: 25px;
+
+}
+h2 span{
+  color: #AC60DB;
+}
+h3{
+  font-weight: 700;
+  font-size: 15px
+
+}
+.info{
+  text-transform: uppercase;
+}
+.info-txt{
+  background-color: #1C1938;
+  color: white;
+  padding: 30px 40px;
+
+}
+p{
+  color: hsla(0, 0%, 100%, 0.75);
+  font-size: 11px
+}
+.main{
+  margin-bottom: 40px
+}
+@media screen and (max-width:570px) {
+  body{
+    text-align: center;
+  }
+  .info-txt{
+
+    position: relative;
+    top: 300px;
+    padding: 30px 65px;
+
+  }
+  .info{
+    margin-bottom: 30px
+  }
+
+  .overlay{
+    height: 300px;
+    background-size: cover;
+    position: absolute;
+    margin-bottom: 50%
+  }
 }
