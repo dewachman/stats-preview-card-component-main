@@ -1,14 +1,15 @@
-/* .img-head{
-  width: 80vw;
-background-color: #AC61DC;
-overflow: hidden;
 
+body{
+background: linear-gradient(#eb5757, #d59152);
+margin: 0;
+padding: 0;
 
 }
-img{
-  /* object-fit: cover; */
-  /* opacity: 0.9;
-} */ */
-body{
-  background-color: red;
+
+/* .look{
+width: 600px;
+margin: 10px auto;
+} */
+jk{
+  padding: 0 15%;
 }
